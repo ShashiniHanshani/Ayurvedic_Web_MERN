@@ -1,16 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import NavBar from "../components/NavBar";
+import NavbarComponent from "../components/navbar"
 import Bottom from "../components/Bottom";
 
 
-//import { } from "../pages";
 function App() {
     return (
         <>
             <Router>
-                <NavBar />
+                <NavbarComponent />
                 <Bottom />
             </Router>
         </>
